@@ -1,0 +1,63 @@
+body
+{
+    margin: auto 25%;
+    font-family: Verdana;
+}
+h1
+{
+    text-align: center;
+}
+ul
+{
+    list-style-type: none;
+}
+.bordered
+{
+    height: auto;
+    width: 45em;
+    border: 1px solid gray;
+}
+.title3
+{
+    width: 230px;
+    margin-top: -32px;
+    background: white;
+    font-size: 1em;
+    font-weight: normal;
+}
+.title2
+{
+    width: 150px;
+    margin-top: -32px;
+    margin-left: 0px;
+    background: white;
+    font-size: 1em;
+    font-weight: normal;
+}
+.title
+{
+    width: 70px;
+    margin-top: -32px;
+    margin-left: 0px;
+    background: white;
+    font-size: 1em;
+    font-weight: normal;
+}
+.content
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.panel
+{
+    border-radius: 0px;
+    margin-top: 10px;
+}
+.panel-heading
+{
+    border-radius: 0px;
+}
+.panel-body
+{
+    margin: 10px;
+}
