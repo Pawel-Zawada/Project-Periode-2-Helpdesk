@@ -1,34 +1,33 @@
 body
 {
-    margin: auto 25%;
     font-family: Verdana;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 h1
 {
     text-align: center;
 }
-ul
+.list-group-item
 {
-    list-style-type: none;
+    list-style-type: disc;
 }
 .bordered
 {
-    height: auto;
-    width: 45em;
-    border: 1px solid gray;
+    border-top: 1px solid lightgray;
 }
 .title3
 {
-    width: 230px;
-    margin-top: -32px;
+    width: 210px;
+    margin-top: -30px;
     background: white;
     font-size: 1em;
     font-weight: normal;
 }
 .title2
 {
-    width: 150px;
-    margin-top: -32px;
+    width: 140px;
+    margin-top: -30px;
     margin-left: 0px;
     background: white;
     font-size: 1em;
@@ -37,7 +36,7 @@ ul
 .title
 {
     width: 70px;
-    margin-top: -32px;
+    margin-top: -30px;
     margin-left: 0px;
     background: white;
     font-size: 1em;
@@ -50,14 +49,27 @@ ul
 }
 .panel
 {
-    border-radius: 0px;
+    border-radius: 10px;
     margin-top: 10px;
 }
 .panel-heading
 {
-    border-radius: 0px;
+    border-radius: 10px 10px 0 0;
 }
 .panel-body
 {
     margin: 10px;
 }
+.list-group
+{
+    width: 400px;
+}
+.panel-primary
+{
+    background-color: lightgray;
+}
+.panel-primary .panel-heading
+{
+    background-color: lightgray;
+}
+
