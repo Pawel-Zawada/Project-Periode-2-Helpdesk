@@ -42,6 +42,3 @@ if (confirm("Heeft u een klacht over ons product Internet en Bellen?") === true)
     var intbel = kies + zelfbel + bel;
     document.writeln('</div>' + '</div>' + '<br>')
 }
-if (kies && zelfbel && bel == true) {
-    intbel = true;
-}

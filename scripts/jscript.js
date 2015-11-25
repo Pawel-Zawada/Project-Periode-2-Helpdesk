@@ -14,8 +14,5 @@ document.writeln("Modem van klant: " + model + "<br><br>");
 document.writeln('<script src="scripts/int.js"></script>');
 document.writeln('<script src="scripts/intbel.js"></script>');
 document.writeln('<script src="scripts/intbeltv.js"></script>');
-if (int && intbel && intbeltv == true) {
-    document.writeln('Geen problemen gemeld');
-}
 document.writeln('<br>' + '<footer>Project Helpdesk Javascript - Versie 1.0 </footer>');
 

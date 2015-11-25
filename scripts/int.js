@@ -31,6 +31,3 @@ if (confirm("Heeft u een klacht over ons product Internet") === true) {
     }
     document.writeln('</div>' + '</div>' + '<br>');
 }
-if (browse && refresh == true) {
-    var int = true;
-}
